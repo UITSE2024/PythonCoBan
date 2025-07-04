@@ -6,7 +6,7 @@
     + Clone repository về local: Khi mở Visual Studio, trong main menu, chọn clone repository theo link sau https://github.com/UITSE2024/PythonCoBan/
     
     + Các bước làm bài trên local
-        1. Tạo 1 branch (đặt theo tên của mình)
+        1. Tạo 1 branch (đặt theo tên của mình, Based on chọn main)
 
         2. Vì mình đã tạo sẵn Solution, các bạn tự add Projects vào Solution đó. Mỗi Project tương ứng với mỗi bài. Đặt tên Project theo tên bài (ví dụ: 1.1, 1.2,...). Sau khi hoàn thành một bài thì commit.
      
