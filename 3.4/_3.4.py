@@ -12,11 +12,10 @@ def xuLy(aa, bb):
         case '*':
             return aa * bb
         case '/':
-            if(b == 0):
+            if(bb == 0):
                 return NULL
             return aa / bb
         case _:
-            print("Toan tu khong hop le")
             return NULL
 
 
@@ -26,7 +25,10 @@ def main():
 
     kq = xuLy(a, b)
 
-    print("Ket qua:", kq)
+    if(kq != NULL):
+        print("Ket qua:", kq)
+    else:
+        print("Khong hop le")
 
 if __name__ == "__main__":
     main()
